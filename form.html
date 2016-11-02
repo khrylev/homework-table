@@ -17,33 +17,40 @@
             <fieldset>
                 <legend>Personal information</legend>
                 <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <input type="text" name="name" id="name" placeholder="Your name" required >
                     <br>
                 <label for="surname">Surname:</label>
-                    <input type="text" name="surname" id="surname" placeholder="Your surname">
+                    <input type="text" name="surname" id="surname" placeholder="Your surname" required >
                     <br>
                 <input type="radio" name="gender" value="male" checked> Male<br>
                 <input type="radio" name="gender" value="female"> Female<br>
                 <input type="radio" name="gender" value="other"> Other
                 <br>
-                
-
-                    
-                    
-                    
+                <label for="phonenumber">Phone number</label>
+                     <input type="tel" name="phonenumber" id="phonenumber" pattern="[0-9]{9} title="number" required>
+                     <br>
                 <label for="email">Email:</label>
                     <input type="text" name="email" id="email" placeholder="Your email">
                     <br>
-
             </fieldset>
-            
+        </form>
     </nav>
     
     
-  <footer>
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
-  </footer>
-</form>
-</body>
+        <footer>
+             <label for="comment">Comment:</label>
+             <textarea name="comment" placeholder="Your comment"></textarea>
+             <br>
+          <center>
+            <form action="index.html">
+               <input type="submit" value="Back to main page">
+		    </form>
+		    <form>
+			   <input type="reset" name="reset" id="reset" value="reset">
+               <input type="submit" name="submit" id="submit" value="send">
+		    </form>
+          </center>
+        </footer>
+     </form>
+   </body>
 </html>
