@@ -29,12 +29,8 @@
                 <label for="birthday">Birthday</label>
                 <input type="date" name="bday" value="birthday" required>
                 <br>
-                <!-- 
-                <input type="date" name="bday" min="1979-12-31" max="2013-01-02"><br>
-                --!>
-                
                 <label for="phonenumber">Phone number</label>
-                     <input type="number" name="phonenumber" id="phonenumber" placeholder="Your email" pattern="[0-9]{9} title="number" required>
+                     <input type="tel" name="phonenumber" id="phonenumber" placeholder="Your email" pattern="[0-9]{9} title="number" required>
                      <br>
                 <label for="email">Email:</label>
                     <input type="text" name="email" id="email" placeholder="Your email">
@@ -46,7 +42,16 @@
         <form>
            <fieldset>
                 <legend>Tickets</legend>
-                <label 
+                    <label for="place">Select your place</label>
+                    <input type="checkbox" name="place" id="place">
+                    <option value="Platinum Fan">Platinum Fan</option>
+					<option value="Golden Fan">Golden Fan</option>
+					<option value="Fan">Fan</option>
+					<option value="Sector">Sector</option>
+                    <br>
+                    
+
+
         <footer>
              <label for="comment">Comment:</label>
              <textarea name="comment" placeholder="Your comment" rows="10" cols="30"></textarea>
