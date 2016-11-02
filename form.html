@@ -20,14 +20,17 @@
                     <input type="text" name="name" id="name" placeholder="Your name" required >
                     <br>
                 <label for="surname">Surname:</label>
-                    <input type="text" name="surname" id="surname" placeholder="Your surname" required >
+                    <input type="text" name="surname" id="surname" placeholder="Your surname" required>
                     <br>
                 <input type="radio" name="gender" value="male" checked> Male<br>
                 <input type="radio" name="gender" value="female"> Female<br>
                 <input type="radio" name="gender" value="other"> Other
                 <br>
+                <input type="date" name="bday" value="birthday" required> Birthday
+                <br>
+                <input type="date" name="bday" min="1979-12-31" max="2013-01-02"><br>
                 <label for="phonenumber">Phone number</label>
-                     <input type="tel" name="phonenumber" id="phonenumber" pattern="[0-9]{9} title="number" required>
+                     <input type="number" name="phonenumber" id="phonenumber" placeholder="Your email" pattern="[0-9]{9} title="number" required>
                      <br>
                 <label for="email">Email:</label>
                     <input type="text" name="email" id="email" placeholder="Your email">
@@ -35,11 +38,14 @@
             </fieldset>
         </form>
     </nav>
-    
-    
+    <article>
+        <form>
+           <fieldset>
+                <legend>Tickets</legend>
+                <label 
         <footer>
              <label for="comment">Comment:</label>
-             <textarea name="comment" placeholder="Your comment"></textarea>
+             <textarea name="comment" placeholder="Your comment" rows="10" cols="30"></textarea>
              <br>
           <center>
             <form action="index.html">
