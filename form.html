@@ -1,70 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Questions</title>
-    </head>
-    <body>
-        <header>
-            <center>
+<head>
+    <meta charset="UTF-8">
+    <title>Questions</title>
+</head>
+<body>
+    <header>
+        <center>
             <h1>Depeche Mode. Global Spirit Tour. Kyiv 2017</h1>
             <h2>Incredible news - Depeche Mode Announce Global Spirit Tour</h2>
             <p><b>Tour will support the release of new Depeche Mode’s studio album Spirit in early 2017.</b></p><br>
-            </center>
-        </header>
-            <form method="POST" action="https://formspree.io/chrystialev@email.com">
-                <fieldset>
-                    <legend>Personal information</legend>
-                    <label for="name">Name:</label>
+        </center>
+    </header>
+    <nav>
+        <form action="https://formspree.io/chrystialev@gmail.com" method="POST">
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="name">Name:</label>
                     <input type="text" name="name" id="name" placeholder="Your name">
                     <br>
-                    <label for="surname">Surname:</label>
+                <label for="surname">Surname:</label>
                     <input type="text" name="surname" id="surname" placeholder="Your surname">
                     <br>
-                    <label for="gender">Your gender:</label>
-                    <br>
-                    <label for="male"></label>
-                    <input type="radio" name="gender" id="male" value="male">Male
-                    <br>
-                    <label for="female"></label>
-                    <input type="radio" name="gender" id="female" value="female">Female
-                    <br>
-                    <label for="user-age">Your age:</label>
-                    <br>
-                    <input type="number" name="age" min="16" max="99" value="21" id="user-age" required>
-                    <br>
-                    <label for="email">Email:</label>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other
+                <br>
+                
+
+                    
+                    
+                    
+                <label for="email">Email:</label>
                     <input type="text" name="email" id="email" placeholder="Your email">
                     <br>
+
             </fieldset>
-        <article>
-            <fieldset>
-                    <legend>Tickets</legend>
-                    <label>
-							<select name="your place">
-									<option value="Platinum Fan">Platinum Fan</option>
-									<option value="Golden Fan">Golden Fan</option>
-									<option value="Fan">Fan</option>
-									<option value="Sector">Sector</option>
-								</select> Select your place						
-					</label>
-					<br>
-					<label for="seat">Your seat:</label>
-                    <br>
-                    <input type="number" name="seat" min="1" max="80" value="1" id="seat" required>
-                    <br>
-            </fieldset>
-        </article>
-        <footer>
-            <center>
-                <form action="index.html">
-			    <input type="submit" value="Back to main page">
-			    </form>
-			    <form>
-			    <input type="reset" name="reset" id="reset" value="reset">
-                <input type="submit" name="submit" id="submit" value="send">
-			    </form>
-		    </center>
-        </footer>
-    </body>
+            
+    </nav>
+    
+    
+  <footer>
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+  </footer>
+</form>
+</body>
 </html>
