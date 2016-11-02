@@ -42,18 +42,18 @@
         <form>
            <fieldset>
                 <legend>Tickets</legend>
-                    <p>Select your place</p>
+                    <p>Select your place:</p>
                        <label>
-                            <input type="checkbox" name="place" value="Platinum Fan">Platinum Fan<br>
+                            <input type="radio" name="place" value="Platinum Fan">Platinum Fan<br>
                         </label>
                         <label>
-                            <input type="checkbox" name="place" value="Golden Fan">Golden Fan<br>
+                            <input type="radio" name="place" value="Golden Fan">Golden Fan<br>
                         </label>
                         <label>
-                            <input type="checkbox" name="place" value="Fan">Fan<br>
+                            <input type="radio" name="place" value="Fan">Fan<br>
                         </label>
                         <label>
-                            <input type="checkbox" name="place" value="Sector">Sector<br>
+                            <input type="radio" name="place" value="Sector">Sector<br>
                         </label>
                         <br>
                     
@@ -61,17 +61,18 @@
 
         <footer>
              <label for="comment">Comment:</label>
-             <textarea name="comment" placeholder="Your comment" rows="10" cols="30"></textarea>
-             <br>
-          <center>
-            <form action="index.html">
-               <input type="submit" value="Back to main page">
-		    </form>
-		    <form>
-			   <input type="reset" name="reset" id="reset" value="reset">
-               <input type="submit" name="submit" id="submit" value="send">
-		    </form>
-          </center>
+                <textarea name="comment" placeholder="Your comment" rows="10" cols="30"></textarea>
+                <br>
+        </fieldset>
+             <center>
+               <form action="index.html">
+                   <input type="submit" value="Back to main page">
+		       </form>
+		       <form>
+			       <input type="reset" name="reset" id="reset" value="reset">
+                  <input type="submit" name="submit" id="submit" value="send">
+		       </form>
+             </center>
         </footer>
      </form>
    </body>
